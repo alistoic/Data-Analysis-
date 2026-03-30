@@ -1,4 +1,4 @@
-# ADP Payroll Integrity – Automated Anomaly & Fraud Detector
+# Payroll Integrity – Automated Anomaly & Fraud Detector
 
 ## Overview
 This project simulates a production-ready system for detecting payroll anomalies (ghost employees, calculation errors) before payment is processed. It uses synthetic data, advanced SQL for data quality checks, and an Isolation Forest model to flag suspicious records. Results are visualized in an interactive Streamlit dashboard.
@@ -14,3 +14,21 @@ This project simulates a production-ready system for detecting payroll anomalies
 1. **Install dependencies**  
    ```bash
    pip install -r requirements.txt
+
+2. **Generate Synthetic Data**  
+   ```bash
+   python generate_synthetic_data.py
+   
+3. **Run Anomaly detection**  
+   ```bash
+   python notebooks/anomaly_detection.py
+
+4. **Run Anomaly detection**  
+   ```bash
+   python notebooks/anomaly_detection.py
+
+5.**Run Streamlit dashboard**
+   ```bash
+   streamlit run streamlit_app.py
+
+
